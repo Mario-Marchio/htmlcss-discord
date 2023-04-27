@@ -37,10 +37,13 @@ footer{
     display: flex;
 }
 .second-header{
-    height: 500px;
+    height: 1040px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bigger-main{
     height: 1200px;
@@ -70,7 +73,7 @@ footer{
     background-color: yellow;
 }
 .bgc-light-blue{
-    background-color: #2dc9f8
+    background-color: #3161E0;
 }
 .bgc-blue{
     background-color: blue;
@@ -111,15 +114,6 @@ footer{
 .flex-grow-2{
     flex-grow: 2;
 }
-.margin-left--{
-    margin-left:-100px;
-}
-.margin-left{
-    margin-left: 100px;
-}
-.margin-right{
-    margin-right:-100px;
-}
 .table-left{
     justify-content: flex-start;
 }
@@ -140,4 +134,29 @@ footer{
 }
 .flex-basis-60{
     flex-basis: 60%;
+}
+.discord{
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.discord-nav{
+    font-size: 1.7em;
+    color: white;
+    text-align: center;
+}
+.space{
+    visibility: hidden;
+}
+.f-display{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.log-in{
+    background-color: #fff;
+    text-decoration: none;
+    color:black;
+    border: 10px solid #fff;
+    border-radius: 15px;
+    line-height: 30px;
 }
