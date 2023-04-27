@@ -74,10 +74,10 @@ h2{
 .mh-height{
     height: 75%;
 }
-.sh-height{
+.fh-height{
     height: 85%;
 }
-.fh-height{
+.sh-height{
     height: 95%;
 }
 
@@ -89,9 +89,6 @@ h2{
 }
 .bd-black{
     border: 3px dashed black;
-}
-.bd-white{
-    border: 3px dashed white;
 }
 .bt-white{
     border-top: 1px solid white;
@@ -192,6 +189,21 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.item4{
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 758px;
+    margin-top: -30px;
+}
+.stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 1100px;
+    margin-left: 850px;
+}
 .section-text{
     font-size: 1.5em;
 }
@@ -205,4 +217,17 @@ h2{
 }
 .upside-down{
     rotate: 0.5turn;
+}
+.text-align{
+    text-align: center;
+}
+.width{
+    width: 50%;
+}
+.margin-top-header{
+    margin-top: 150px;
+}
+.adjust-text{
+    line-height: 12px;
+    margin-right: 100px;
 }
