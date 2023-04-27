@@ -17,6 +17,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 footer{
     height: 650px;
@@ -29,6 +30,9 @@ p{
     font-size: 2.6em;
     margin-top: 100px;
     margin-bottom: 80px;
+}
+h2{
+    font-size: 3.5em;
 }
 .container{
     width: 50%;
@@ -51,6 +55,7 @@ p{
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 150px;
 }
 .bigger-main{
     height: 1200px;
@@ -79,6 +84,9 @@ p{
 
 .bgc-light-blue{
     background-color: #3161E0;
+}
+.bgc-lightgrey{
+    background-color: #F6F6F6;
 }
 .bd-black{
     border: 3px dashed black;
@@ -110,8 +118,9 @@ p{
 .buttons{
     width: 100px;
 }
-.flex-basis-40{
+.flex-basis-40-h{
     flex-basis: 40%;
+    height: 600px;
 }
 .flex-basis-60{
     flex-basis: 60%;
@@ -168,4 +177,25 @@ p{
 }
 #down-arrow{
     font-size: 1.3em;
+}
+.item1{
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item2{
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item3{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-text{
+    font-size: 1.5em;
+}
+.margin-bottom{
+    margin-bottom:50px ;
 }
