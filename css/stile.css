@@ -24,17 +24,24 @@ footer{
     justify-content: center;
     align-items: center;
 }
+p{
+    color: #fff;
+    font-size: 2.6em;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
 .container{
     width: 50%;
     display: flex;
 }
 .small-container{
-    width: 40%;
-    display: flex;
+    width: 45%;
+    text-align: center;
 }
 .smaller-container{
     width: 40%;
     display: flex;
+    
 }
 .second-header{
     height: 1040px;
@@ -69,35 +76,9 @@ footer{
 .fh-height{
     height: 95%;
 }
-.bgc-yellow{
-    background-color: yellow;
-}
+
 .bgc-light-blue{
     background-color: #3161E0;
-}
-.bgc-blue{
-    background-color: blue;
-}
-.bgc-purple{
-    background-color: purple;
-}
-.bgc-pink{
-    background-color: pink;
-}
-.bgc-lightgrey{
-    background-color: lightgrey;
-}
-.bgc-green{
-    background-color: green;
-}
-.bgc-darkgrey{
-    background-color: rgb(17, 24, 24);
-}
-.bgc-red{
-    background-color: red;
-}
-.bgc-aqua{
-    background-color: aqua;
 }
 .bd-black{
     border: 3px dashed black;
@@ -159,4 +140,32 @@ footer{
     border: 10px solid #fff;
     border-radius: 15px;
     line-height: 30px;
+}
+.h1-header{
+    font-size:5em;
+    color: #fff;
+    margin-top: 100px;
+
+}
+.download-mac{
+    background-color: #fff;
+    text-decoration: none;
+    color:black;
+    border: 30px solid #fff;
+    border-radius: 45px;
+    line-height: 30px;
+    font-size: 2em;
+}
+.browser-discord{
+    background-color: #23272A;
+    text-decoration: none;
+    color:white;
+    border: 30px solid #23272A;
+    border-radius: 45px;
+    line-height: 30px;
+    margin-left: 80px;
+    font-size: 2em;
+}
+#down-arrow{
+    font-size: 1.3em;
 }
