@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    display: flex;
+}
+.small-container{
+    width: 40%;
+    display: flex;
+}
+.smaller-container{
+    width: 40%;
+    display: flex;
+}
+.second-header{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigger-main{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.h-height{
+    height: 50%;
+}
+.mh-height{
+    height: 75%;
+}
+.sh-height{
+    height: 85%;
+}
+.fh-height{
+    height: 95%;
+}
+.bgc-yellow{
+    background-color: yellow;
+}
+.bgc-light-blue{
+    background-color: #2dc9f8
+}
+.bgc-blue{
+    background-color: blue;
+}
+.bgc-purple{
+    background-color: purple;
+}
+.bgc-pink{
+    background-color: pink;
+}
+.bgc-lightgrey{
+    background-color: lightgrey;
+}
+.bgc-green{
+    background-color: green;
+}
+.bgc-darkgrey{
+    background-color: rgb(17, 24, 24);
+}
+.bgc-red{
+    background-color: red;
+}
+.bgc-aqua{
+    background-color: aqua;
+}
+.bd-black{
+    border: 3px dashed black;
+}
+.bd-white{
+    border: 3px dashed white;
+}
+.bt-white{
+    border-top: 1px solid white;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-grow-2{
+    flex-grow: 2;
+}
+.margin-left--{
+    margin-left:-100px;
+}
+.margin-left{
+    margin-left: 100px;
+}
+.margin-right{
+    margin-right:-100px;
+}
+.table-left{
+    justify-content: flex-start;
+}
+.table-section{
+    width: 25%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.jc-center{
+    align-items: center;
+}
+.buttons{
+    width: 100px;
+}
+.flex-basis-40{
+    flex-basis: 40%;
+}
+.flex-basis-60{
+    flex-basis: 60%;
+}
